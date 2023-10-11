@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#slider{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.slider-image{
+    min-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+#slider button{
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #454545;
+    padding: 4px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 5
+}
+#slider-decrease{
+    left: 20px;
+}
+#slider-increase{
+    right: 20px;
+}
